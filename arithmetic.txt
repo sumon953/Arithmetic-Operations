@@ -1,0 +1,12 @@
+echo "enter value a "
+read a
+echo "enter value b "
+read b
+c=`expr $a + $b`
+echo "sum is $c"
+c=`expr $a - $b`
+echo "sub is $c"
+c=`expr $a \* $b`
+echo "mul is $c"
+c=`expr $a / $b`
+echo "div is $c"
